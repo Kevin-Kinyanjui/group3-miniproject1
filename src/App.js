@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <FormComponent />
-      <CardComponent title="Group3" description="Group3 Project" />
+      <CardComponent
+        title="The mind's eye"
+        description="A chatbox to help open up your view of the world."
+      />
     </div>
   );
 }

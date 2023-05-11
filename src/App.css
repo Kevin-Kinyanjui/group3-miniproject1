@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px #4caf50;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4caf50;
+}
+
+body {
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #f8f8f8;
+  }
+  50% {
+    background-color: #ff7f50;
+  }
+  100% {
+    background-color: #6495ed;
+  }
+}

@@ -1,12 +1,12 @@
 import React from "react";
 
 const url =
-  "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80";
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnmU5zm0LFiri0c6sCIRC_qVh86PwruoGCzTT6pW6wYcqVCGvOju7a5HiB3F4YWCgnnps&usqp=CAU";
 
 function CardComponent({ title, description }) {
   return (
     <div className="card">
-      <img src={url} alt="Product" />
+      <img src={url} alt="Group3 working" />
       <h2>{title}</h2>
       <p>{description}</p>
     </div>

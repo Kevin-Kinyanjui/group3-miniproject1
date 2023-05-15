@@ -1,12 +1,13 @@
 import "./App.css";
 import CardComponent from "./components/Card";
-import FormComponent from "./components/Form";
+import FormComponent, { logger as debug } from "./components/Form";
 
 function App() {
   return (
     <div className="App">
       <br />
       <FormComponent />
+      {debug()}
       <br />
       <CardComponent
         title="The mind's eye"
@@ -15,5 +16,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

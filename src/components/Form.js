@@ -12,4 +12,9 @@ function FormComponent() {
   );
 }
 
+function logger() {
+  console.log("hi");
+}
+
 export default FormComponent;
+export { logger };
